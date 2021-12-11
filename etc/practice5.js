@@ -1,8 +1,6 @@
 // https://programmers.co.kr/learn/courses/30/lessons/43165
 
 function solution(numbers, target) {
-  var answer = 0;
-
   let resList = [numbers[0], -numbers[0]];
   for(let i=1;i<numbers.length;i++){
     let tempList = [];
